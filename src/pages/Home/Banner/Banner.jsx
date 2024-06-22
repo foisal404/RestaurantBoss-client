@@ -11,25 +11,25 @@ import bannerImgVI from "../../../assets/banner/Banner06.jpg";
 
 const Banner = () => {
   return (
-    <div className="z-0">
+    <div className="z-0 text-center">
       <Carousel showArrows={false} autoPlay showStatus={false}>
-        <div>
-          <img src={bannerImgVI} className="max-h-[35rem]" />
+        <div className=" max-h-[35rem]">
+          <img src={bannerImgVI} className="h-full" />
         </div>
-        <div>
-          <img src={bannerImgI} className="max-h-[35rem]" />
+        <div className="max-h-[35rem]">
+          <img src={bannerImgI} className="h-full" />
         </div>
-        <div>
-          <img src={bannerImgII} className="max-h-[35rem]" />
+        <div className="max-h-[35rem]">
+          <img src={bannerImgII} className="h-full" />
         </div>
-        <div>
-          <img src={bannerImgIII} className="max-h-[35rem]" />
+        <div className="max-h-[35rem]">
+          <img src={bannerImgIII} className="h-full" />
         </div>
-        <div>
-          <img src={bannerImgIV} className="max-h-[35rem]" />
+        <div className="max-h-[35rem]">
+          <img src={bannerImgIV} className="h-full" />
         </div>
-        <div>
-          <img src={bannerImgV} className="max-h-[35rem]" />
+        <div className="max-h-[35rem]">
+          <img src={bannerImgV} className="h-full" />
         </div>
       </Carousel>
     </div>
