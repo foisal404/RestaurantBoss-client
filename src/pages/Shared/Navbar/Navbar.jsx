@@ -1,9 +1,13 @@
+import { Link } from "react-router-dom";
 import "remixicon/fonts/remixicon.css";
 const Navbar = () => {
   const navOptions = (
     <>
       <li>
-        <a>Home</a>
+        <Link to="/">Home</Link>
+      </li>
+      <li>
+        <Link to="/menu">Menu</Link>
       </li>
       {/* <li>
         <details>
